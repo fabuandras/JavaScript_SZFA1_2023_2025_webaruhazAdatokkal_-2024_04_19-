@@ -1,0 +1,129 @@
+main {
+    width: 80%;
+    margin: 100px auto;
+    border: 3px solid black;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    background-color:maroon;
+    opacity: 0.9;
+}
+
+.urlap {
+    width: 80%;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: brown;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body {
+    background-image: url('kepek/hatter.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    /*  text-decoration: underline; */
+    font-weight: bold;
+    text-align: center;
+    color:white;
+}
+
+.termekeklink {
+    color: red;
+}
+
+.perjel {
+    color: lightgray;
+}
+
+.csillagmezok {
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+button {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+.szuro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: overline;
+    color: lightgray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*
+    background-color:brown;
+    */
+}
+  
+li {
+    float: left;
+}
+
+.rightborder {
+    border-right: 1px solid gray;
+}
+
+.leftborder {
+    border-left: 1px solid gray;
+}
+  
+li a {
+    /*
+    display: block;
+    */
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    color: red;
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    */
+}
+
+.float {
+    float: right;
+}
+
+.active {
+    color: red;
+}
